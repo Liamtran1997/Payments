@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 user = User.new(
-  id: 3,
-  name: "Andy Leverenz",
-  email: "andy@example.com",
+  id: 5,
+  name: "Tran Chau Tuan",
+  email: "andy@example12345.com",
   password: "password",
   password_confirmation: "password"
 )
@@ -25,7 +25,7 @@ Job.create!([{
                job_author: "Facebook",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/facebook.jpg").open,
-               remote_ok: false
+               remote_oke: false
              },
              {
                title: "Product Designer",
@@ -37,7 +37,7 @@ Job.create!([{
                job_author: "Slack",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/slack.jpg").open,
-               remote_ok: false
+               remote_oke: false
              },
              {
                title: "UI/UX Designer",
@@ -49,7 +49,7 @@ Job.create!([{
                job_author: "Trello",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/trello.jpg").open,
-               remote_ok: true
+               remote_oke: true
              },
              {
                title: "Platform Engineer",
@@ -61,7 +61,7 @@ Job.create!([{
                job_author: "WordPress",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/wordpress.jpg").open,
-               remote_ok: true
+               remote_oke: true
              },
              {
                title: "Rails Engineer",
@@ -73,7 +73,7 @@ Job.create!([{
                job_author: "Basecamp",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/basecamp.jpg").open,
-               remote_ok: true
+               remote_oke: true
              },
              {
                title: "Product Manager",
@@ -85,7 +85,7 @@ Job.create!([{
                job_author: "Twitter",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/twitter.jpg").open,
-               remote_ok: true
+               remote_oke: true
              },
              {
                title: "Writer",
@@ -97,6 +97,6 @@ Job.create!([{
                job_author: "Web-Crunch",
                user_id: user.id,
                avatar: Rails.root.join("app/assets/images/web-crunch.jpg").open,
-               remote_ok: true
+               remote_oke: true
              }
             ])
